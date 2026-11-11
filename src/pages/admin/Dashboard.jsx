@@ -23,7 +23,7 @@ export default function AdminDashboard() {
   const pendingCount = complaints.filter(c => c.status === 'menunggu').length + 0
   const inProgressCount = complaints.filter(c => c.status === 'diproses').length + 0
   const completedCount = complaints.filter(c => c.status === 'selesai').length + 0
-  const userCount = 2
+  const userCount = 3
 
   // Filtering
   const filteredComplaints = complaints.filter(c => {
